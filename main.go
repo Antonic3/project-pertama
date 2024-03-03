@@ -14,8 +14,8 @@ type Teman struct {
 }
 
 var dataTeman = []Teman{
-	{1, "Avant", "Jl. Melati no 56", "Web Developer", "Suka dengan pemrograman"},
-	{2, "Azis", "Jl. Sawah Baru No. 33", "Mobile Developer", "Pingin menambah skill dalam programing"},
+	{1, "Avant", "Jl. Melati no 56", "Web Developer", "Ingin mencoba hal baru dalam programing"},
+	{2, "Azis", "Jl. Sawah Baru No. 33", "Mobile Developer", "Ingin menambah skill dalam programing"},
 	{3, "Ali", "Jl. Kramat batu No. 66", "Mahasiswa", "Mencari ilmu baru buat unlock new skills"},
 	{4, "Aldian", "Jl. Batu Lampa No. 88", "Mahasiswa", "Mencari skill baru untuk kerja nanti"},
 	{5, "Christian", "Jl. Damai No. 46", "Web Developer", "Menambah skill dalam programing"},
@@ -54,6 +54,5 @@ func main() {
 		return
 	}
 
-	// Tampilkan data teman berdasarkan nomor absen
 	tampilkanData(absenInt)
 }
